@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PMBOK つまみぐい</title>
+  <meta charset="utf-8">
+  <meta name="description" content="PMBOK つまみぐい">
+  <meta name="author" content="ftakao2007">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+    <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    <!-- END LOGO SLIDE -->
+    
+
+    <!-- TITLE SLIDE -->
+    <!-- Should I move this to a Local Layout File? -->
+    <slide class="title-slide segue nobackground">
+      <hgroup class="auto-fadein">
+        <h1>PMBOK つまみぐい</h1>
+        <h2>面白そうなところをピックアップ</h2>
+        <p>ftakao2007<br/></p>
+      </hgroup>
+          </slide>
+
+    <!-- SLIDES -->
+      <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>この資料について</h2>
+  </hgroup>
+  <article>
+    <p>2013/12に行ったNODE-Setagaya＃7という勉強会でテキストベタ書きで発表した内容をスライドにまとめました。当初予定していたクラウドソーシングの話より、前日社内勉強会で学んでテキストに書き下したPMBOKの話の方がウケてしまい若干複雑な気持ちではありますが、こちらは資料として公開しても問題なさそうなのでまとめました。  </p>
+
+<p>勉強会前日に学んだ内容を書き下してまとめたものなので、そういうものがあるんだなー程度で見ていただければと思います。内容について何かありましたらFacebook経由で連絡いただければと思いますm(_ _)m</p>
+
+<ul>
+<li>Facebook<br>
+<a href="https://www.facebook.com/takao.fukui.121">https://www.facebook.com/takao.fukui.121</a></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>PMBOKとは</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>プロジェクトマネジメント協会が発行する、「プロジェクトマネジメント知識体系ガイド」</li>
+<li>どうやってプロジェクトを成功させるかの考え方、ノウハウを学ぶことができる<br>
+-&gt; 知ることをとっかかりにして自分で調べ、自分で考えるための力をつける</li>
+<li>成功の秘訣ではない<br>
+-&gt; 当たり前の事が書かれている<br>
+-&gt; 「リスク」と「インシデント」など混同されがちな言葉が明確に分けられている</li>
+</ul>
+
+<p>(WikiPedia、社内勉強会)  </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>システム開発プロジェクトの特性</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>短納期</li>
+<li>あいまい</li>
+<li>生産性にばらつき<br></li>
+</ul>
+
+<p>※ ゴールが定まらないままスタートし、リリースした時に最新のシステムである必要がある<br>
+-&gt; 激動の現代では、従来のウォーターフォールで納期が長い開発は難しくなりつつある  </p>
+
+<h3>参考</h3>
+
+<p>インクリメンタル開発とイテレーション開発<br>
+<a href="http://d.hatena.ne.jp/incarose86/20121117/1353144430">http://d.hatena.ne.jp/incarose86/20121117/1353144430</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>品質</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>後ろ向き品質<br>
+-&gt; バグをテストで潰すなど、満たしていて当然の品質<br></li>
+<li>前向き品質<br>
+-&gt; 高機能なシステム<br></li>
+<li>感性品質<br>
+-&gt; 答えは無いが、何かすごい品質(例:ユーザー・エクスペリエンス)<br></li>
+</ul>
+
+<p>※ 日本のIT業界は後ろ向き品質に着目することは多いが前向きや感性品質は気にしないことが多い</p>
+
+<ul>
+<li>QA<br>
+制作しているシステムの品質を高める<br>
+-&gt; 過剰品質になったり、必要のない機能が盛り込まれる可能性がある(職人)<br></li>
+<li>QC<br>
+顧客の要求を満たしているか、過剰品質になっていないか確認する(PM)<br>
+-&gt; 余計な機能が組み込まれていないかチェック<br>
+-&gt; 不要に要求を広げさせない。要求を満たしたら一旦閉める<br></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="class" id="id" style="background:;">
+  <hgroup>
+    
+  </hgroup>
+  <article>
+    <p><img src="figure/quality.png" alt="quality" title="hoge"></p>
+
+<p>※ 顧客満足とはQCDのこと。顧客の求める品質、コスト、納期を満たすこと<br>
+-&gt; 技術者が求めている品質と顧客が求めている品質は異なることが多いので注意<br>
+※ スコープを明確にする  </p>
+
+<p>※ 品質は検査ではなく作りこみで上げる<br>
+-&gt; 検査は作成されたモノを厳選しているという作業。成果物の品質を上げるための作業ではない  </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>リスクマネジメント</h2>
+  </hgroup>
+  <article>
+    <p>※ リスクマネジメントは特殊なマネジメント<br>
+-&gt; 対策するほどコストは高くなるが、対策をしたから確実にトラブルを防げるわけではない<br>
+-&gt; 対策しなくても何も問題が起こらない事もある</p>
+
+<h3>言葉について</h3>
+
+<ul>
+<li><p>リスク<br>
+プロジェクトに影響を与える潜在的要因  </p></li>
+<li><p>インシデント<br>
+問題が発生したが比較的影響の無いもの  </p></li>
+<li><p>トラブル<br>
+インシデントのうち、影響が顕在化したもの  </p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="class" id="id" style="background:;">
+  <hgroup>
+    
+  </hgroup>
+  <article>
+    <table><thead>
+<tr>
+<th>リスクマネジメント</th>
+<th>トラブル</th>
+<th>影響</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>する</td>
+<td>起きる</td>
+<td>ある</td>
+</tr>
+<tr>
+<td>しない</td>
+<td>起きない</td>
+<td>ない</td>
+</tr>
+</tbody></table>
+
+<p>しない -&gt; 起きない -&gt; ない :ラッキー。でも特に顧客から評価されるわけではない<br>
+しない -&gt; 起きる -&gt; ない :内々で対策しておこう。顧客から評価が特にあるわけではない<br>
+しない -&gt; 起きる -&gt; ある :なんで対策しておかないの？顧客からの評価が下がる  </p>
+
+<p>する -&gt; 起きない -&gt; ない :対策してたから当たり前だね<br>
+する -&gt; 起きる -&gt; ない :対策してたのに。。もっと対策をねりなおさないといけないね<br>
+する -&gt; 起きる -&gt; ある :高い金払ってリスク対策しておきながら何やってんの？  </p>
+
+<p>※ リスク対策をやって評価が上がる事はあまり無いが、トラブルが発生した場合大変  </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="class" id="id" style="background:;">
+  <hgroup>
+    
+  </hgroup>
+  <article>
+    <p>終わりですm(_ _)m  </p>
+
+<h3>CM</h3>
+
+<p>徳島県の実家でさつまいも(なると金時)の直販を始めました。  </p>
+
+<h3>Twitter</h3>
+
+<p><a href="https://twitter.com/fukuimo2013">https://twitter.com/fukuimo2013</a>  </p>
+
+<h3>お店パンフレット(PDFファイル)</h3>
+
+<p><a href="https://t.co/gr7IBJJP9U">https://t.co/gr7IBJJP9U</a>  </p>
+
+<p>農業 × IT、六次産業化などに興味ある方、情報交換しましょう!! (&gt;_&lt;)/</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+
+  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+<!-- Grab CDN jQuery, fall back to local if offline -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery-1.7.min.js"><\/script>')</script>
+<!-- Load Javascripts for Widgets -->
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+</html>
